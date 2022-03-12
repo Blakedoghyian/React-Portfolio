@@ -1,0 +1,13 @@
+import React from 'react';
+
+
+const Hero = (props) => {
+    return <div className='container'>
+        <div>
+            <h1><span className='tertiaryColor p-0'>S</span>oftware <span className='tertiaryColor p-0'>D</span>eveloper</h1>
+            <p><strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore eligendi fuga ex. Error eius placeat distinctio doloremque? Dolorum, sapiente commodi reiciendis ipsam odit impedit. Atque quis vero facere quaerat doloremque veniam voluptates amet modi. Nisi mollitia provident eum ipsam quod sed hic laudantium. Nemo labore pariatur ipsa laborum temporibus consequatur recusandae reprehenderit molestias accusantium error minima doloremque veniam autem, debitis deserunt ratione neque illo voluptas consectetur libero, voluptatum quos id, perspiciatis aut. Ratione voluptatum rerum delectus error autem numquam tempora dolore unde vero veritatis dolor sequi dolorum expedita sunt quidem distinctio temporibus similique, obcaecati illo quibusdam dignissimos praesentium laudantium asperiores. Maiores ab itaque adipisci fuga inventore? Deserunt eligendi quibusdam error dicta, quae placeat explicabo reprehenderit cupiditate non vel facilis ullam earum quam labore! Tenetur, eaque! Laboriosam ullam hic sequi impedit, natus nihil quidem praesentium? Delectus, modi nam tempora inventore nostrum ea iusto, repudiandae numquam repellendus doloribus et, accusantium ducimus in? Amet excepturi iste ipsa, eos consectetur qui voluptates ad asperiores debitis consequuntur temporibus expedita pariatur dignissimos blanditiis itaque! Nam quisquam qui itaque veritatis unde aliquid reprehenderit sapiente! Quam, consectetur. Recusandae ipsa ab quasi facere saepe voluptatem cilis laborum aut architecto minus dolorem, aliquam sapiente aspernatur eum explicabo quo mollitia ab voluptate ad consectetur delectus error ex voluptas numquam maiores! Numquam modi culpa a ipsum eligendi ab aliquam dolores fugit vel maiores nulla, adipisci aliquid. Necessitatibus unde corrupti provident velit est! Facere non quas quisquam eveniet animi dolore doloremque eius, hic eligendi eaque ea sequi, voluptates itaque maxime quibusdam sunt molestias dolorum. Qui corrupti nam, nobis error a dolores provident. Nisi, dolorum. Quia consectetur doloribus dolore, quod corporis accusamus veniam iusto iste nihil? Et expedita, magni, maxime hic explicabo commodi amet suscipit sit .</strong></p>
+        </div>
+        </div>
+}
+
+export default Hero;
