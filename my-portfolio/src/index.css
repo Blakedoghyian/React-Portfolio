@@ -215,6 +215,10 @@ textarea {
   padding: 5px;
 }
 
+.contact {
+  color:#cccccc
+}
+
 .container {
   width: 85%;
   max-width: 1200px;

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-// import PhotoList from '../PhotoList';
-// import { capitalizeFirstLetter } from '../../utils/helpers';
+import vFriend from '../../assets/images/weather-dashboard.png';
+import backyardbartender from '../../assets/images/backyardbartender.png';
+import weatherdashboard from '../../assets/images/weather-dashboard.png';
 
 import Card from '../Card';
 
@@ -15,7 +16,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: 'Weather Dashboard',
                     subtitle: '',
-                    imgSrc: '',
+                    imgSrc: 'weatherdashboard',
                     link: '',
                     selected: false
                 },
@@ -23,7 +24,7 @@ class Carousel extends React.Component {
                     id: 1,
                     title: 'Backyard Bartender',
                     subtitle: '',
-                    imgSrc: '',
+                    imgSrc: 'backyardbartender',
                     link: '',
                     selected: false
                 },
@@ -31,7 +32,7 @@ class Carousel extends React.Component {
                     id: 2,
                     title: 'vFriend',
                     subtitle: '',
-                    imgSrc: '',
+                    imgSrc: 'vFriend',
                     link: '',
                     selected: false
                 },

@@ -32,7 +32,7 @@ function App() {
               ></Nav>
               {!contactSelected ? (
                 <>
-                <Carousel></Carousel>
+                <Carousel currentCategory={currentCategory}></Carousel>
                 <About></About>
                 </>
               ) : ( 
