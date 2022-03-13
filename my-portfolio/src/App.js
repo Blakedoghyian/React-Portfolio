@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import ParticleBackground from './components/particleBackground';
 import Nav from './components/Nav';
 import About from './components/About';
-import Projects from './components/Projects';
+import Carousel from './components/Projects';
 import ContactForm from './components/Contact';
 
 function App() {
@@ -32,8 +32,8 @@ function App() {
               ></Nav>
               {!contactSelected ? (
                 <>
+                <Carousel></Carousel>
                 <About></About>
-                <Projects></Projects>
                 </>
               ) : ( 
                 <ContactForm></ContactForm>

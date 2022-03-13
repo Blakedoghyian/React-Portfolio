@@ -43,7 +43,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #f3a847;
+  --secondary: #00e4f5;
   --tertiary: #b12704;
   --light: #fafafa;
   --dark: #000000;
@@ -133,17 +133,16 @@ footy {
   color: #cccccc
 }
 
-/* a:hover {
+a:hover {
   text-decoration: underline;
-} */
-
-/* header {
-  background: var(--dark);
 }
+
+
 
 header a {
   color: var(--light);
-} */
+  text-decoration: none;
+} 
 
 button {
   font-size: 1rem;
