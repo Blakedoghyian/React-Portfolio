@@ -20,7 +20,7 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
               <Nav  categories={categories} 
                     setCurrentCategory={setCurrentCategory}
                     currentCategory={currentCategory}
