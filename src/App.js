@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import Footer from './components/Footer';
 import ParticleBackground from './components/particleBackground';
 import Nav from './components/Nav';
@@ -20,7 +20,7 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
               <Nav  categories={categories} 
                     setCurrentCategory={setCurrentCategory}
                     currentCategory={currentCategory}
@@ -37,7 +37,7 @@ function App() {
               )}
               <ParticleBackground></ParticleBackground>
           <Footer />
-      </Router>
+      </HashRouter>
     );
   }
 
