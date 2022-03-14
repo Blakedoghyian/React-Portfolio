@@ -12,7 +12,7 @@ function App() {
   const [categories] = useState([
     { name: 'My Projects', description: 'Photos of projects'},
     { name: 'Resume', description: 'Download my resume' },
-    { name: 'Other', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+    { name: 'Other', description: 'Other description' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -20,7 +20,7 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
               <Nav  categories={categories}
                     setCurrentCategory={setCurrentCategory}
                     currentCategory={currentCategory}
