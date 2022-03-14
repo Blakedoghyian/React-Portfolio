@@ -1,12 +1,11 @@
 import './App.css';
 import React, { useState } from 'react';
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
-import { Container } from 'react-bootstrap';
 import Footer from './components/Footer';
 import ParticleBackground from './components/particleBackground';
 import Nav from './components/Nav';
 import About from './components/About';
-import Carousel from './components/Projects';
+import Projects from '../src/components/Projects';
 import ContactForm from './components/Contact';
 
 function App() {
@@ -22,8 +21,6 @@ function App() {
 
     return (
       <Router>
-
-        <Container className="p-0" fluid={true}>
               <Nav  categories={categories}
                     setCurrentCategory={setCurrentCategory}
                     currentCategory={currentCategory}
@@ -32,7 +29,7 @@ function App() {
               ></Nav>
               {!contactSelected ? (
                 <>
-                <Carousel currentCategory={currentCategory}></Carousel>
+                <Projects currentCategory={currentCategory}></Projects>
                 <About></About>
                 </>
               ) : ( 
@@ -40,7 +37,6 @@ function App() {
               )}
               <ParticleBackground></ParticleBackground>
           <Footer />
-        </Container>
       </Router>
     );
   }
