@@ -21,7 +21,7 @@ function App() {
 
     return (
       <Router basename={process.env.PUBLIC_URL}>
-              <Nav  categories={categories}
+              <Nav  categories={categories} 
                     setCurrentCategory={setCurrentCategory}
                     currentCategory={currentCategory}
                     contactSelected={contactSelected}
