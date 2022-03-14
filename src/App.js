@@ -30,6 +30,7 @@ function App() {
               {!contactSelected ? (
                 <>
                 <Projects currentCategory={currentCategory}></Projects>
+                
                 <About></About>
                 </>
               ) : ( 

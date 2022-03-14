@@ -3,17 +3,11 @@ import coverImage from '../../assets/cover/cover-image.jpg';
 function About() {
     return (
         <section className="my-5">
-            <h1 id="about">Who am I?</h1>
+            <h1 className='centerText' id="about">Learn about me!</h1>
             <img src={coverImage} className="coverImg" alt="cover" />
-            <div className="my-2">
+            <div className="my-2 centerText">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-                    condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-                    mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-                    Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-                    justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-                    dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-                    Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+                    My name is Blake Doghyian and I am an aspiring web developer learning full stack. Over the past few months I have shifted my focus to a completely new field, and have been captivated by the amount of new information and possibilities. Here is a work in progress portfolio for keeping track of my projects and accomplishments and showcasing my skills as a developer. Have a look as I continue my journey through full stack, thanks!
                 </p>
             </div>
         </section>
