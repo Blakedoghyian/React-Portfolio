@@ -12,6 +12,7 @@ function Projects() {
     return (
         <section>
             <h1>My Projects</h1>
+            <p>click the button to view the Github Repository</p>
             <Carousel fade>
                 <Carousel.Item>
                     <img
@@ -19,9 +20,8 @@ function Projects() {
                         src={weatherdashboard}
                         alt="weather dashboard"
                     />
-                    <Carousel.Caption className='bg-grey'>
-                        <h2 className='carouseltext'>Weather Dashboard</h2>
-                        <Button href='https://github.com/Blakedoghyian/weather-dashboard' target='_blank'variant="outline-dark">Github Repo</Button>
+                    <Carousel.Caption>
+                        <Button className="shadow-lg p-3 mb-5 bg-white rounded" href='https://github.com/Blakedoghyian/weather-dashboard' target='_blank'variant="outline-dark">Weather Dashboard</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -31,9 +31,8 @@ function Projects() {
                         alt="Second slide"
                     />
 
-                    <Carousel.Caption className='bg-grey'>
-                        <h2 className='carouseltext'>Backyard Bartender</h2>
-                        <Button href='https://github.com/jessicalhille/backyard-bartender' target='_blank'variant="outline-dark">Github Repo</Button>
+                    <Carousel.Caption>
+                        <Button className="shadow-lg p-3 mb-5 bg-white rounded" href='https://github.com/jessicalhille/backyard-bartender' target='_blank'variant="outline-dark">Backyard Bartender</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -43,9 +42,8 @@ function Projects() {
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption className='bg-grey'>
-                        <h2 className='carouseltext'>vFriend gaming app</h2>
-                        <Button href='https://github.com/Arcanaut/vFriend' target='_blank'variant="outline-dark">Github Repo</Button>
+                    <Carousel.Caption>
+                        <Button className="shadow-lg p-3 mb-5 bg-white rounded" href='https://github.com/Arcanaut/vFriend' target='_blank'variant="outline-dark">vFriend</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -55,9 +53,8 @@ function Projects() {
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption className='bg-grey'>
-                        <h2 className='carouseltext'>Budget Tracker app</h2>
-                        <Button href='https://github.com/Blakedoghyian/budget-tracker' target='_blank'variant="outline-dark">Github Repo</Button>
+                    <Carousel.Caption>
+                        <Button className="shadow-lg p-3 mb-5 bg-white rounded" href='https://github.com/Blakedoghyian/budget-tracker' target='_blank'variant="outline-dark">Budget Tracker</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -67,9 +64,8 @@ function Projects() {
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption className='bg-grey'>
-                        <h2 className='carouseltext'>Employee Tracker app</h2>
-                        <Button href='https://github.com/Blakedoghyian/employee-tracker' target='_blank'variant="outline-dark">Github Repo</Button>
+                    <Carousel.Caption>
+                        <Button className="shadow-lg p-3 mb-5 bg-white rounded" href='https://github.com/Blakedoghyian/employee-tracker' target='_blank'variant="outline-dark">Employee Tracker</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -79,9 +75,8 @@ function Projects() {
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption className='bg-grey'>
-                        <h2 className='carouseltext'>Coding Quiz Challenge</h2>
-                        <Button href='https://github.com/Blakedoghyian/code-quiz' target='_blank'variant="outline-dark">Github Repo</Button>
+                    <Carousel.Caption>
+                        <Button className="shadow-lg p-3 mb-5 bg-white rounded" href='https://github.com/Blakedoghyian/code-quiz' target='_blank'variant="outline-dark">Code Quiz</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
