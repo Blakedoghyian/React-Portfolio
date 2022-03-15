@@ -80,7 +80,6 @@
 
 import React from 'react';
 import PhotoList from '../PhotoList';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 import { Carousel, Button } from 'react-bootstrap';
 import weatherdashboard from '../../assets/small/commercial/0.jpg';
 import bartender from '../../assets/small/commercial/1.jpg';
@@ -93,9 +92,7 @@ function Projects(props) {
     const { currentCategory } = props;
     return (
         <section>
-            <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-            <p>{currentCategory.description}</p>
-
+            <h1>My Projects</h1>
             <Carousel fade>
                 <Carousel.Item>
                     <img
@@ -169,7 +166,6 @@ function Projects(props) {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <PhotoList category={currentCategory.name} />
         </section>
     );
 }

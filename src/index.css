@@ -371,3 +371,11 @@ a {
 .carouseltext {
   color: black;
 }
+
+.grey {
+  color: #cccccc
+}
+
+.nostyle {
+  text-decoration: none;
+}
