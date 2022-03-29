@@ -65,7 +65,8 @@ function Projects() {
                     />
 
                     <Carousel.Caption>
-                        <Button className="shadow-lg p-3 mb-5 bg-white rounded" href='https://github.com/Blakedoghyian/employee-tracker' target='_blank'variant="outline-dark">Employee Tracker</Button>
+                        <Button className="shadow-lg p-3 mx-1 mb-5 bg-white rounded" href='http://www.bayleesboards.com' target='_blank'variant="outline-dark">Baylee's Boards</Button>
+                        <Button className="shadow-lg p-3 mx-1 mb-5 bg-white rounded" href="https://www.github.com/Blakedoghyian/baylees-boards" target='_blank' variant='outline-dark'>Github</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
